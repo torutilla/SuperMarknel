@@ -1,0 +1,45 @@
+name: flutter_super_marknel
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flame: ^1.17.0
+  flame_tiled: ^1.20.1
+  flutter:
+    sdk: flutter
+  animated_splash_screen:
+  cupertino_icons: ^1.0.6
+  restart_app: ^1.2.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+
+flutter:
+  uses-material-design: true
+
+  assets: 
+    - assets/tiles/
+    - assets/fonts/
+    - assets/images/Tilesets/
+    - assets/images/Collect/
+    - assets/images/Character/
+    - assets/images/Controls/
+    - assets/images/Enemies/
+    - assets/images/Logos/
+    - assets/images/Enemies/Boar/
+    - assets/images/Enemies/Chomper/
+    - assets/images/Enemies/Car/
+    - assets/images/Enemies/Slime/
+
+  fonts:
+    - family: Pixeboy
+      fonts:
+        - asset: assets/fonts/Pixeboy-z8XGD.ttf
